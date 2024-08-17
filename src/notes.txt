@@ -1,0 +1,18 @@
+to install react appliaction in your folder:
+npx crete-react-app . =>To cretae in the same folder
+to create in a new folder => npx create-react-app foldername
+
+ TAILWIND CSS:
+ In terminal:
+ npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+Then in tailwind document:
+
+ content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+ 
+
+ Then in css file:
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
